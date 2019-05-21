@@ -1,0 +1,1245 @@
+@font-face {
+    font-family:Lobster; 
+    src: url(../font/Lobster-Regular.ttf); 
+
+  }
+
+@font-face {
+    font-family:Cookie; 
+    src: url(../font/Lobster-Regular.ttf); 
+
+  }
+
+body {
+
+ 
+min-width: 320px;
+    margin:0;
+    overflow-x: hidden;
+    background-image: url(../img/фон.jpg);
+
+  }
+
+/* Задаем стиль блоку Header */
+
+header.style__header {
+
+ 
+  background: #0abab5;
+ 
+}
+
+/* Задаем стиль названию сайта */
+
+h3 {
+
+    margin: 0 0 5px 20px;
+}
+
+h3.name__site a {
+
+	font-family: 'Lobster', cursive;
+	text-decoration: none;
+	font-size: 30px;
+	color:white;	
+}
+
+/* Задаем стиль навигации сайта */
+
+ul.nav {
+
+  height: 40px;
+
+  margin:0;
+  list-style: none;
+  display: flex;
+	flex-direction: row;
+ 	justify-content: center;
+ 	align-items:center;
+  padding-left:0;
+
+  }
+
+
+
+ul.nav a {
+
+    height: 40px;
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+    background-color: #0abab5;
+    text-decoration: none;
+    color: white;
+    padding: 8px 40px 4px 40px;
+
+}
+
+ul.nav a:hover {
+
+    background-color: white;
+    color: #0abab5;
+}
+
+
+/* Задаем стиль поиску */
+
+form.search {
+
+  position: absolute;
+  right: 0;
+  top:0;
+  right: 5px;
+  top:40px;
+  margin-left: 20px;
+
+}
+
+form.search input[type="text"] {
+
+  height: 40px;
+  width: 0;
+  top: 0;
+  right: 0;
+  padding: 0 40px 0 15px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  outline: none;
+  background: transparent;
+  transition: .4s cubic-bezier(0, 0.8, 0, 1);
+  position: absolute;
+  color:black;
+  z-index: 2;
+
+}
+
+form.search input:focus {
+
+  width: 160px;
+  z-index: 1;
+  border-bottom: 1px solid #0abab5;
+
+}
+
+form.search button {
+
+  background: white;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+/* Задаем стиль блоку номеру телефона */
+
+div.conteiner {
+
+  display: flex;
+	position: absolute;
+	top:10px;
+	right:95px;
+	
+	
+}
+
+a.style__phone {
+
+	color:white;
+	text-decoration: none;
+	font-family: 'Cookie', cursive;
+	font-size: 20px;
+	padding-left: 25px;
+
+}
+
+
+
+a.style__phone i {
+
+font-size: 15px;
+
+}
+
+ul.nav li {
+margin:15px;
+}
+
+div.style__nav {
+padding-bottom:9px;
+}
+
+
+/* Конец блока  Header */
+
+
+h1 {
+  
+	margin-left: auto ;
+	margin-right: auto;
+	text-align: center;
+	font-size: 40px;
+  color:white;
+  font-family: 'Lobster', cursive;
+}
+
+
+/*  Блока  слайдер */
+
+
+div.slaider__block {
+
+    height: 430px;
+    width: 430px;
+
+}
+
+.slaider__block_1_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    height:430px;
+    background-image: url(../img/Макаронс.jpg);
+   
+}
+
+.slaider__block_2_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    height:430px;
+    background-image: url(../img/Вишня.jpg);
+   
+}
+
+.slaider__block_3_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    height:430px;
+    background-image: url(../img/Mac_slider.jpg);
+   
+}
+
+.slaider__block_4_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    height:430px;
+    background-image: url(../img/Cake_slaider.jpg);
+}
+
+div.slaider__block_cakes {
+
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+    justify-content: center; 
+ 
+
+}
+
+.slaider__block_5_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+      background-image: url(../img/Торт1.jpg);
+}
+
+.slaider__block_6_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+    background-image: url(../img/Торт2.jpg);
+}
+
+.slaider__block_7_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+   background-image: url(../img/Торт3.jpg);
+}
+
+.slaider__block_8_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+    background-image: url(../img/Пир1.jpg);
+}
+
+.slaider__block_9_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+    background-image: url(../img/Пир2.jpg);
+}
+
+.slaider__block_10_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+    background-image: url(../img/Пир3.jpg);
+}
+
+.slaider__block_11_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+   background-image: url(../img/Макаронс1.jpg);
+}
+
+.slaider__block_12_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+    background-image: url(../img/Макаронс2.jpg);
+}
+
+.slaider__block_13_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+    background-image: url(../img/Макаронс3.jpg);
+}
+
+.slaider__block_14_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+   background-image: url(../img/Пах1.jpg);
+}
+
+.slaider__block_15_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+    background-image: url(../img/Пах2.jpg);
+}
+
+.slaider__block_16_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+    background-image: url(../img/Пах3.jpg);
+}
+
+.slaider__block_17_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+   background-image: url(../img/Трю1.jpg);
+}
+
+.slaider__block_18_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+    background-image: url(../img/Трю2.jpg);
+}
+
+.slaider__block_19_img{
+
+    display:inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+    background-image: url(../img/Трю3.jpg);
+}
+
+.slaider__block_20_img{
+  visibility:hidden;
+    display: none;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+   background-image: url(../img/Макаронс.jpg);
+}
+
+.slaider__block_21_img{
+  visibility:hidden;
+    display: none;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+   background-image: url(../img/Макаронс.jpg);
+}
+
+.slaider__block_22_img{
+  visibility:hidden;
+    display: none;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+   background-image: url(../img/Макаронс.jpg);
+}
+
+.slaider__block_23_img{
+  visibility:hidden;
+    display: none;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+   background-image: url(../img/Макаронс.jpg);
+}
+
+
+
+
+
+.slaider__block_img_style{
+
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(255,255,255, 0.7);
+    display:none;
+    font-family: 'Cookie', cursive;
+}
+
+div.slaider__block_1_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_2_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_3_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_4_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_5_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_6_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+
+div.slaider__block_7_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_8_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_9_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+
+div.slaider__block_10_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_11_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_12_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_13_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_14_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_15_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_16_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_17_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_18_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_19_img:hover .slaider__block_img_style{
+
+    display:block;
+}
+
+div.slaider__block_20_img:hover .slaider__block_img_style{
+visibility:hidden;
+  display: none;
+}
+
+div.slaider__block_21_img:hover .slaider__block_img_style{
+visibility:hidden;
+  display: none;
+}
+
+div.slaider__block_22_img:hover .slaider__block_img_style{
+visibility:hidden;
+  display: none;
+}
+
+div.slaider__block_23_img:hover .slaider__block_img_style{
+visibility:hidden;
+  display: none;
+}
+
+ .slaider__block_img_style h2 {
+
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    margin-top: 30px;
+   
+   
+}
+
+ h4 {
+
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color:white;
+
+}
+
+.slaider__block_img_style p {
+
+    text-align: justify;
+    text-indent: 10px;
+    padding:10px;
+    font-size: 25px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+table {
+
+border-collapse: collapse;
+border-style: none;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+	table td {
+
+   font-family: 'Cookie', cursive;
+    font-size: 25px;
+    padding-right: 5px;
+  }
+
+
+
+
+button.block__basket {
+   font-family: 'Cookie', cursive;
+   text-align: center;
+    position:absolute;
+    top: 94%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2px;
+    font-size: 20px;
+    border:2px solid black;
+    background:white;
+}
+
+
+button:hover {
+  box-shadow: 0 0 25px rgba(0,255,255,1.5);
+  
+}
+
+div.block__cooks {
+margin-right:auto;
+margin-left: auto;
+min-width:320px;
+width:980px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+
+
+}
+
+div.block__cooks_style {
+
+min-width: 200px;
+height: 185px;
+border-radius: 50%;
+position: relative;
+text-align: center;
+margin-bottom: 50px; 
+}
+
+div.block__cooks_style img {
+border-radius: 50%;
+object-fit: cover
+
+}
+
+h5 {
+  margin:0;
+  font-family: 'Cookie', cursive;
+  font-size: 25px;
+  color:white;
+
+}
+
+div.block__cooks_1 {
+margin-right:auto;
+margin-left: auto;
+max-width:980px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+
+div.block__cooks_style_1 {
+
+min-width: 200px;
+position: relative;
+text-align: center;
+padding:0;
+
+}
+
+/*  Блок  footer */
+
+
+footer.footer__style {
+
+    position: relative;
+    bottom:0; 
+    width: 100%;
+    color: #fff;
+    background: #0abab5;
+    padding:1px;
+
+   }
+
+footer.footer__style p {
+
+	  margin:10px;
+    text-transform:uppercase;
+    text-align: center;
+
+}
+
+footer.footer__style p a {
+
+  color:white;
+	text-decoration: none;
+	font-size: 20px;
+	padding-left: 15px;
+
+}
+
+/* Конец блок  footer */
+
+
+
+
+div.main-signin {
+
+
+  width: 455px;
+  margin: 80px auto;
+}
+
+
+ div.main-signin__head {
+  background: #0abab5;
+  border-bottom: 1px solid #0abab5;
+  border-radius: 10px 10px 0 0;
+  padding: 12px 0;
+}
+
+ div.main-signin__head p {
+  color: black;
+  text-align: center;
+font-family: 'Cookie', cursive;
+}
+
+
+
+
+.main-signin .main-signin__middle {
+  background: #0abab5;
+  border-bottom: 1px solid #0abab5;
+  border-top: 1px solid #0abab5;
+ 
+}
+.main-signin .main-signin__middle .middle__form {
+  margin: 5px 0 5px 0;
+}
+
+
+ div.middle__form input[type="text"],
+ div.middle__form input[type="password"], 
+ div.middle__form input[type="submit"] {
+  background: white;
+  border-radius: 5px 5px 0 0;
+  border: none;
+  color: black;
+  display: block;
+  margin: 0 20px;
+  outline: none;
+  padding: 15px 0;
+  width: 90%;
+}
+
+.main-signin .main-signin__middle .middle__form input[type="text"], 
+.main-signin .main-signin__middle .middle__form input[type="password"] {
+  padding:15px 20px;
+  width:81%;
+}
+
+.main-signin .main-signin__middle .middle__form input[type="password"] {
+  border-top: 1px solid #0abab5;
+  border-radius: 0 0 5px 5px;
+}
+.main-signin .main-signin__middle .middle__form input[type="submit"] {
+  background: white;
+  border-radius: 5px;
+  border-bottom: 1px solid #0abab5;
+  border-top: 1px solid #0abab5;
+  color:black;
+  font-size: 18px;
+  margin-top: 15px;
+  cursor:pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Cookie', cursive;
+}
+.main-signin .main-signin__middle .middle__form input[type="submit"]:active {
+  background: #0abab5;
+}
+
+
+
+
+ div.main-signin__foot {
+  background: #0abab5;
+  border-top: 1px solid #0abab5;
+  border-radius: 0 0 10px 10px;
+  float: left;
+  padding: 12px 0;
+  width: 100%;
+}
+
+ div.foot__left{
+
+  float: left;
+  padding: 0 0 0 6%;
+  width: 28%;
+}
+
+ div.foot__left p {
+  color: black;
+  margin: 0;
+  padding: 16px 0 0 0;
+  text-transform: uppercase;
+  font-family: 'Cookie', cursive;
+
+}
+
+ div.foot__right {
+  float: left;
+  width: 12%;
+  margin-top: 5px;
+}
+
+ div.foot__center {
+  padding: 16px 0 0 0;
+
+ }
+
+div.foot__center a{
+
+ color:black;
+ font-family: 'Cookie', cursive;
+ }
+
+div.face a {
+  background: url(../img/facebook.png) no-repeat ;
+  display: block;
+  width: 50px;
+  height:30px;
+  float: left;
+}
+
+/* Конец блок  авторизации */
+
+/*  Блок  содержание корзина */
+
+
+div.table p {
+font-smoothing: antialiased;
+ font-size: 1.5em;
+  color: black;
+   box-sizing: border-box;
+  font-smoothing: antialiased;
+}
+
+div.table input {
+  border: 0.3em solid gray;
+  padding: 0.5em 0.3em; 
+  font-size: 1.4em;
+  color: black;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+div.table img.basket_img {
+  max-width: 9em;
+  width: 100%;
+  overflow: hidden; 
+  margin-right: 1em;
+}
+
+div.table a {
+  text-decoration: none;
+}
+
+.container_basket {
+  
+  max-width: 75em;
+  width: 95%;
+  margin: 60px auto;  
+  overflow: hidden;
+  position: relative;
+  border-radius: 0.6em;
+  
+  font: 62.5%/1.5em "Trebuchet Ms", helvetica;
+}
+
+.cart {
+  
+  margin: 2.5em;
+  overflow: hidden;
+}
+
+.cart.is-closed {
+  height: 0;
+  margin-top: -2.5em;
+}
+
+.table {
+  
+  background: white;
+  border-radius: 0.6em;
+  overflow: hidden;
+  clear: both;
+  margin-bottom: 1.8em;
+}
+
+
+.layout-inline > * {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.th {
+  background: #0abab5;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.tf {
+position: relative;
+  background: #0abab5;
+  text-transform: uppercase;
+  text-align: right;
+   
+}
+
+div.tf p {
+  color: white;
+  font-weight: bold;
+font-size: 1.5em;
+}
+
+.col {
+
+  padding: 1em;
+  width: 12%;
+  color: white;
+
+}
+
+.col-pro {
+  width: 44%;
+}
+
+.col-pro > * {
+  vertical-align: middle;
+}
+
+.col-qty {
+  text-align: center;
+  width: 17%;
+}
+
+.col-numeric p {
+  font: bold 1.8em helvetica;
+
+}
+
+.col-total p {
+  color: #0abab5;
+
+}
+
+.tf .col {
+  width: 20%;
+}
+
+.row > div {
+  vertical-align: middle;
+}
+
+.row-bg2 {
+  background: white;
+}
+
+
+.col-qty > * {
+  vertical-align: middle; 
+}
+
+.col-qty > input {
+  max-width: 2.6em;
+}
+
+
+a.qty {
+  width: 1em;
+  line-height: 1em;
+  border-radius: 2em;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  background:#0abab5;  
+  color: white;
+}
+
+a.qty:hover {
+  background: #0abab5;
+}
+
+
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+
+.col__buttom {
+
+position: absolute;
+top:35%;
+left: 10%;
+background:white;
+padding: 10px;
+border-radius: 10px;
+
+
+
+}
+
+.col__buttom a {
+font: bold 1.8em helvetica;
+color: black;
+}
+  /*=========================*/
+@media screen and ( max-width: 755px) {
+  .container_basket {
+    width: 98%;
+  }
+
+  .col-pro {
+    width: 35%;
+  }
+  
+  .col-qty {
+    width: 22%;
+  }
+  
+  img {
+    max-width: 100%;
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and ( max-width: 591px) {
+  
+}
+
+  /*==============nav===========*/
+
+@media screen and ( max-width: 1900px) {
+  
+   .main-item {
+
+display: none;
+
+   }
+
+}
+
+@media screen and ( max-width: 1000px) {
+
+ a.main-item {
+display: block;
+color:white;
+font-size:45px;
+position: absolute;
+top:40px;
+left:20px;
+
+   }
+  
+.nav 
+{ 
+   visibility:hidden;
+
+} 
+
+.main-item:focus ~ .nav , 
+.main-item:active ~ .nav , 
+.nav:hover
+{ 
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   visibility:visible; 
+   text-align:center;
+ margin-bottom:200px;
+ 
+} 
+
+ul.nav {
+
+
+}
+
+
+ul.nav li  {
+  margin-left: 55px;
+margin-top:49px;
+
+}
+
+div.conteiner {
+
+  display: flex;
+  position: absolute;
+  top:50px;
+  right:95px;
+  
+  
+}
+}
+
+@media screen and ( max-width: 1200px) {
+.slaider__block {
+
+visibility:hidden;
+display:none;
+}
+
+.slaider__block_20_img{
+  visibility:visible;
+    display: inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+   background-image: url(../img/Макаронс.jpg);
+}
+
+.slaider__block_21_img{
+   visibility:visible;
+    display:  inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+    background-image: url(../img/Вишня.jpg);
+}
+
+.slaider__block_22_img{
+ visibility:visible;
+    display:  inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+    background-image: url(../img/Mac_slider.jpg);
+}
+
+.slaider__block_23_img{
+ visibility:visible;
+    display:  inline-block;
+    position:relative;   
+    width:430px;
+    margin:5px;
+    height:430px;
+   background-image: url(../img/Cake_slaider.jpg);
+} 
+
+div.slaider__block_20_img:hover .slaider__block_img_style{
+visibility:visible;
+  display: block;
+}
+
+div.slaider__block_21_img:hover .slaider__block_img_style{
+visibility:visible;
+  display: block;
+}
+
+div.slaider__block_22_img:hover .slaider__block_img_style{
+visibility:visible;
+  display: block;
+}
+
+div.slaider__block_23_img:hover .slaider__block_img_style{
+visibility:visible;
+  display: block;
+}
+
+}
+
+div.block__cooks{  
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: auto;
+
+}
+
+div.block__cooks_style {
+
+  margin-bottom:100px;
+}
+ 
+
+
+
+
+
+@media screen and ( max-width: 500px) {
+
+  div.conteiner {
+visibility:hidden;
+
+  }
+  
+}

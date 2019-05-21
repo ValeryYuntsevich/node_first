@@ -1,0 +1,59 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title  Современные десерты 
+    link(rel='stylesheet', href='css/main.css')
+    link(rel='shortcut icon', href='img/Titile_picture.ico', type='image/x-icon')
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.6.0/css/all.css', integrity='sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h', crossorigin='anonymous')
+    link(rel='stylesheet', href='js/OwlCarousel/dist/assets/owl.carousel.min.css')
+    link(rel='stylesheet', href='js/OwlCarousel/dist/assets/owl.theme.default.min.css')
+  body
+    header.style__header
+      h3.name__site
+        a(href='/')  Современные десерты 
+      a.main-item(href='javascript:void(0);', tabindex='1')
+        i.fas.fa-bars
+      ul.nav
+        li
+          a(href='/about')  О нас 
+        li
+          a(href='/contact')  Контакты 
+        li
+          a(href='/area')   Месторасположение
+      .conteiner__form
+        form.search
+          input(type='text', placeholder='Искать здесь...')
+          button#search_click(type='submit')
+            i.fas.fa-search
+      #hide_abaut.conteiner
+        div
+          a.style__phone(href='tel:8(029)8602634')
+            i.fas.fa-phone
+            |   8(029)8602634
+        #user
+          a.style__phone(href='log.html')
+            i#user.fas.fa-user
+        #baskeet
+          a.style__phone(href='basket.html')
+            i.fas.fa-shopping-basket   
+            |  (2)
+
+    block content
+    // Блок подвал
+    footer.footer__style
+      p   © 2018 Современные сладости от Юнцевич.В.И. 
+      p
+        a.face(href='https://www.facebook.com', target='_blank')
+          i.fab.fa-facebook
+        a.vk(href='https://vk.com', target='_blank')
+          i.fab.fa-vk
+        a.inst(href='https://www.instagram.com/?hl=ru', target='_blank')
+          i.fab.fa-instagram
+        a.visa(href='https://www.paypal.com/ru/home', target='_blank')
+          i.fab.fa-cc-visa
+        a.mc(href='https://www.paypal.com/ru/home', target='_blank')
+          i.fab.fa-cc-mastercard
+    script(src='js/jquery-3.3.1.min.js')
+    script(src='js/OwlCarousel/dist/owl.carousel.min.js')
+    script(src='js/main.js')
